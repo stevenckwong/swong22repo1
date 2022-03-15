@@ -56,6 +56,8 @@ documents/*
 #Forcecode files
 .forceCode/*
 .sfdx/*
+force.json
+sfdx-project.json
 
 #Mac files
 .DS_Store
