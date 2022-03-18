@@ -6,4 +6,8 @@ public with sharing class HobbiesControllerTest {
         System.assertEquals(result,'Hobbies!');
     }
 
+    static public void testProcessMessage() {
+        String result = HobbiesController.processMessage();
+        System.assertEquals(result,'Not Processed!');
+    }
 }
