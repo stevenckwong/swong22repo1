@@ -3,7 +3,12 @@ public with sharing class HobbiesControllerTest {
     @isTest
     static public void testGetMessage() {
         String result = HobbiesController.getMessage();
-        System.assertEquals(result,'Hobbies!');
+        System.assertEquals(result,'Hobbies! Updated by Carol');
     }
 
+    @isTest
+    static public void testProcessMessage() {
+        String result = HobbiesController.processMessage();
+        System.assertEquals(result,'Not Processed!');
+    }
 }
